@@ -43,8 +43,8 @@ func main() {
 						Name:        "postgres-connection-string",
 						Aliases:     []string{"p"},
 						Usage:       "Postgres connection string",
-						Value:       "postgres://transiter:transiter@localhost:5432/transiter",
-						DefaultText: "postgres://transiter:transiter@localhost:5432/transiter",
+						Value:       "postgres://transiter:transiter@localhost:5433/transiter",
+						DefaultText: "postgres://transiter:transiter@localhost:5433/transiter",
 					},
 					&cli.Int64Flag{
 						Name:  "postgres-max-connections",

@@ -52,7 +52,7 @@ If you have Docker installed,
 ```
 docker run \
     -e POSTGRES_USER=transiter -e POSTGRES_PASSWORD=transiter -e POSTGRES_DB=transiter \
-    -p 0.0.0.0:5432:5432 \
+    -p 0.0.0.0:5433:5432 \
     postgis/postgis:14-3.4
 ```
 
